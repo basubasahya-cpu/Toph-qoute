@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quote Poster</title><!-- Rock-style font --><link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"><style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9CAF88; /* Sage color */
+  font-family: 'Rock Salt', cursive;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  color: #2f3e2f;
+}
+
+.quote {
+  font-size: 26px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.author {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* subtle ground/earth effect */
+body::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);
+}
+
+</style></head><body><div class="container">
+  <div class="quote">“Life happens wherever you are, whether you make it or not.”</div>
+  <div class="author">– Toph Beifong</div>
+</div></body>
+</html>
